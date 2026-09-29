@@ -8,6 +8,14 @@ else:
     print("odd")
 
 #Task 3.2
+number = 123456789
+
+total = 0
+
+for digit in str(number):
+    total = total + int(digit)
+
+print(total)
 
 #Task 3.3
 number1 = 12.24 
